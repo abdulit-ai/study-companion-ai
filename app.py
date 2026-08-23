@@ -286,7 +286,7 @@ with st.sidebar:
             st.error("Invalid key")
 
     st.markdown("---")
-    model_choice = st.selectbox("Model", ["gemini-1.5-flash", "gemini-1.5-pro"])
+    model_choice = st.selectbox("Model", ["gemini-2.5-flash", "gemini-2.5-pro"])
     difficulty = st.selectbox("Difficulty", ["Beginner", "Intermediate", "Advanced"])
     num_items = st.slider("Items to generate", 3, 15, 6)
 
